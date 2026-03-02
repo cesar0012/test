@@ -1,0 +1,18 @@
+# System Files
+.DS_Store
+Thumbs.db
+
+# Backend (Symfony)
+backend/vendor/
+backend/var/
+backend/public/bundles/
+backend/.env.local
+backend/.env.local.php
+backend/.env.*.local
+backend/config/secrets/prod/prod.decrypt.private.php
+
+# Frontend (Vue/Vite)
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+frontend/.env.*.local
